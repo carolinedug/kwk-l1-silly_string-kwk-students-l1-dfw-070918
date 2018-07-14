@@ -12,7 +12,7 @@ puts "MY FAVORITE WORD IS #{favorite_word_in_all_caps}"
 
 phrase = "IM NOT SHOUTING"
 
-lowercased_phrase = phrase.lowercase
+lowercased_phrase = phrase.downcase
 
 puts lowercased_phrase
 
